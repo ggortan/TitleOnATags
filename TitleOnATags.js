@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name    Tooltip on 'a' tags
-// @version 1.0
+// @version 1.1
 // @author  Gabriel G
 // ==/UserScript==
 
