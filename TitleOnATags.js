@@ -1,17 +1,16 @@
 // ==UserScript==
 // @name    Tooltip on 'a' tags
-// @version 1.1
+// @version 1.2
 // @author  Gabriel G
 // ==/UserScript==
 
-var titleOn = 1;
-var tooltip = 0; //for future use
-var resolveUrl = 0; //for future use
+var titleOn = true;
+var tooltip = false; //for future use
+var resolveUrl = false; //for future use
 
-if (titleOn = 1){
+if ( titleOn === true){
    var element = document.getElementsByTagName("a");
-   for ( var i = 0; i< elemento.length; i++) {
+   for ( var i = 0; i< element.length; i++) {
       	element[i].setAttribute("title", element[i].href);
       }
-   }
-  
+}
