@@ -4,8 +4,14 @@
 // @author  Gabriel G
 // ==/UserScript==
 
-var element = document.getElementsByTagName("a");
-for ( var i = 0; i< elemento.length; i++) {
-   	element[i].setAttribute("title", element[i].href);
-  }
+var titleOn = 1;
+var tooltip = 0; //for future use
+var resolveUrl = 0; //for future use
+
+if (titleOn = 1){
+   var element = document.getElementsByTagName("a");
+   for ( var i = 0; i< elemento.length; i++) {
+      	element[i].setAttribute("title", element[i].href);
+      }
+   }
   
